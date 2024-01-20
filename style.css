@@ -1,7 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
     
 }
 
@@ -26,7 +29,6 @@ body {
     display: flex;
     justify-content: space-between;
    
-    
 }
 
 
@@ -48,14 +50,15 @@ ul {
 .hero-section {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 
 #hero-main-text {
     font-size: 48px;
-    font-weight: bold;
     color: #F9FAF8;
     margin-bottom: 2px;
+    font-weight: 800;
 }
 
 #hero-secondary-text {
@@ -79,5 +82,81 @@ button {
     border-radius: 25px;
     padding: 5px 10px 5px 10px;
     background-color: #3882F6;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.page-second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    
+}
+
+.national-parks-images {
+
+    width: 250px;
+    height: 175px;
+    border-radius: 25px;
+
+}
+
+.park-images {
+    
+    text-align: center;
+}
+
+.page-third-section
+{
+    padding: 50px 0px 12px 0px;
+   
+}
+.quote-text {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: 'Papyrus', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#1F2937;
+    padding: 12px 50px 12px 50px;
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 75px;
+
+}
+
+.newsletter {
+    display: flex;
+    background-color: #3882F6;
+    padding: 12px 50px 12px 50px;
+    max-width: 800px;
+    margin: auto;
+    align-items: flex-end;
+}
+
+.newsletter-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    color: white;
+    padding: 12px 50px 12px 50px;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    min-height: 56px;
+    
 }
